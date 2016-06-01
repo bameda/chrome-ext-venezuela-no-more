@@ -1,20 +1,20 @@
 
 replacements = [
-    {'find': 'Venezuela',        'replace': 'Chiquitistán'},
-    {'find': 'VENEZUELA',        'replace': 'CHIQUITISTÁN'},
-    {'find': 'venezuela',        'replace': 'chiquitistán'},
+	{'find': 'Venezuela',        'replace': 'Chiquitistán'},
+	{'find': 'VENEZUELA',        'replace': 'CHIQUITISTÁN'},
+	{'find': 'venezuela',        'replace': 'chiquitistán'},
 
-    {'find': 'venezolanos',      'replace': 'chiquitistanies'},
-    {'find': 'VENEZOLANOS',      'replace': 'CHIQUITISTANIES'},
+	{'find': 'venezolanos',      'replace': 'chiquitistanies'},
+	{'find': 'VENEZOLANOS',      'replace': 'CHIQUITISTANIES'},
 
-    {'find': 'venezolano',       'replace': 'chiquitistaní'},
-    {'find': 'VENEZOLANO',       'replace': 'CHIQUITISTANÍ'},
+	{'find': 'venezolano',       'replace': 'chiquitistaní'},
+	{'find': 'VENEZOLANO',       'replace': 'CHIQUITISTANÍ'},
 
-    {'find': 'venezolanas',      'replace': 'chiquitistanitas'},
-    {'find': 'VENEZOLANAS',      'replace': 'CHIQUITISTANITAS'},
+	{'find': 'venezolanas',      'replace': 'chiquitistanitas'},
+	{'find': 'VENEZOLANAS',      'replace': 'CHIQUITISTANITAS'},
 
-    {'find': 'venezolana',       'replace': 'chiquitistanita'},
-    {'find': 'VENEZOLANA',       'replace': 'CHIQUITISTANITA'},
+	{'find': 'venezolana',       'replace': 'chiquitistanita'},
+	{'find': 'VENEZOLANA',       'replace': 'CHIQUITISTANITA'},
 	
 	{'find': 'Nicolas Maduro',       'replace': 'Chiquito de la Calzada'},
 	{'find': 'nicolas naduro',       'replace': 'chiquito de la calzada'},
@@ -30,5 +30,5 @@ replacements = [
 ];
 
 replacements.forEach(function(elem, idx) {
-    findAndReplaceDOMText(document.body, {'find': elem.find, 'replace': elem.replace});
+	findAndReplaceDOMText(document.body, {'find': elem.find, 'replace': elem.replace});
 });
