@@ -26,7 +26,11 @@ replacements = [
 	
 	{'find': 'MADURO',       'replace': 'CHIQUITO'},
 	{'find': 'maduro',       'replace': 'chiquito'},
-	{'find': 'Maduro',       'replace': 'Chiquito'}
+	{'find': 'Maduro',       'replace': 'Chiquito'},
+	
+	{'find': 'chavismo',       'replace': 'chiquitismo'},
+	{'find': 'CHAVISMO',       'replace': 'chiquitismo'},
+	{'find': 'Chavismo',       'replace': 'Chiquitismo'}
 ];
 
 replacements.forEach(function(elem, idx) {
