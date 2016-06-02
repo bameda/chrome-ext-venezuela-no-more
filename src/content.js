@@ -19,9 +19,13 @@ replacements = [
     {'find': 'nicolas naduro',   'replace': 'chiquito de la calzada'},
     {'find': 'NICOLAS MADURO',   'replace': 'CHIQUITO DE LA CALZADA'},
 
-    {'find': 'N.MADURO',         'replace': 'C. DE LA CALZADA'},
-    {'find': 'n.maduro',         'replace': 'c. de la calzada'},
-    {'find': 'N.Maduro',         'replace': 'C. de La Calzada'},
+    {'find': 'Nicolás Maduro',   'replace': 'Chiquito de la Calzada'},
+    {'find': 'nicolás naduro',   'replace': 'chiquito de la calzada'},
+    {'find': 'NICOLÁS MADURO',   'replace': 'CHIQUITO DE LA CALZADA'},
+
+    {'find': 'N. MADURO',         'replace': 'C. DE LA CALZADA'},
+    {'find': 'n. maduro',         'replace': 'c. de la calzada'},
+    {'find': 'N. Maduro',         'replace': 'C. de La Calzada'},
 
     {'find': 'MADURO',           'replace': 'CHIQUITO'},
     {'find': 'maduro',           'replace': 'chiquito'},
