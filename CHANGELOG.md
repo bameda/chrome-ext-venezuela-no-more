@@ -16,3 +16,9 @@
 # 0.3
 
 - Replacements 'Nicolás Maduro' / 'Chiquito de la Calzada'
+
+
+# 0.4
+
+- Now works in pages with async updates.
+- Replacements 'Juan Guaidó' / 'Lucas Grijander'
