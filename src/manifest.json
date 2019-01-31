@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Venezuela no more",
-    "version": "0.4",
+    "version": "0.5",
     "author": "David Barragán Merino (@bameda)",
     "description": "A funny Chrome extension to get away from Venezuela when you read the Spanish press",
     "homepage_url": "https://github.com/bameda/chrome-ext-venezuela-no-more",
@@ -10,6 +10,9 @@
         "48": "icons/icon48.png",
         "128": "icons/icon128.png",
         "256": "icons/icon256.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/icon48.png"
     },
     "content_scripts": [
         {

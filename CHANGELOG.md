@@ -22,3 +22,8 @@
 
 - Now works in pages with async updates.
 - Replacements 'Juan Guaidó' / 'Lucas Grijander'
+
+
+# 0.5
+
+- Fix browser action icon.
